@@ -1,0 +1,19 @@
+[project]
+name = "dialect-transcription-program"
+version = "1.0.0"
+description = "Automatic orthographic and phonetic transcription of Russian dialect speech"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.36",
+  "openai-whisper>=20250625",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "soundfile>=0.12",
+  "librosa>=0.10",
+  "scipy>=1.10",
+  "torch>=2.0",
+  "torchaudio>=2.0",
+]
+
+[tool.ruff]
+line-length = 110
