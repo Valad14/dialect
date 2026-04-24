@@ -1,0 +1,15 @@
+[project]
+name = "dialect-transcription"
+version = "0.2.0"
+description = "Automatic orthographic and phonetic transcription of Russian dialect speech"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.36,<2",
+    "openai-whisper>=20240930",
+    "imageio-ffmpeg>=0.4.9",
+    "numpy>=1.24",
+    "soundfile>=0.12",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
